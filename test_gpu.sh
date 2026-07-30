@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=dist_gpu
-#SBATCH --partition=RTX6000Node
+#SBATCH --partition=<your_partition>
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
