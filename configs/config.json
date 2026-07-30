@@ -1,0 +1,30 @@
+{
+    "model": {
+        "name": "CNN",
+        "in_channels": 1,
+        "num_classes": 10
+    },
+
+    "dataset": {
+        "name": "MNIST",
+        "root": "./data"
+    },
+
+    "training": {
+	"seed": 0,
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "num_epochs": 10
+    },
+
+    "distributed": {
+	"enabled": true,
+        "num_workers_per_process": 2
+    },
+
+    "logging": {
+	"tensorboard": true,
+        "runs_dir": "runs",
+        "checkpoints_dir": "checkpoints"
+    }
+}

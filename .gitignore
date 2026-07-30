@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env
+#env/
+.venv/
+venv/
+
+# Training outputs
+runs/
+logs/
+checkpoints/
+
+# Dataset
+data/
+
+# Models
+*.pth
+*.pt
+
+# VS Code
+.vscode/
+
+# Special files
+gpu_check.sh
